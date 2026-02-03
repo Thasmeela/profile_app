@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Profile extends StatelessWidget {
   const Profile({super.key});
@@ -19,7 +20,7 @@ class Profile extends StatelessWidget {
             SizedBox(height: 10),
             Text(
               "Thasmeela",
-              style: TextStyle(
+              style:GoogleFonts.padauk(
                 color: Colors.black,
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
